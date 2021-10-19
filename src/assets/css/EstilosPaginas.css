@@ -1,0 +1,620 @@
+/*Botones BotonesSitio*/
+
+.BotonesSitio{
+
+    display: flex;
+    background-color: #53D4FF !important;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    color: black;
+    font-size: 50px;
+    border-radius: 50px;
+    box-shadow: 
+                inset 0px 0px 0px #bceeff,
+                inset 0px 0px 0px #bceeff;
+    border: 3px solid black;
+  }
+  
+  .BotonesSitio:hover{
+    box-shadow: 0px 0px 0px #bceeff,
+                0px 0px 0px #8fe3ff,
+                inset -10px -10px 15px #8fe3ff,
+                inset 10px 10px 15px #bceeff;
+      color: black;
+      text-decoration: none;
+  
+  }
+  
+  .quitar{
+      display: flex;
+      align-items: center;
+      color: black;
+  }
+    
+    .quitar:hover{
+        color: black;
+        text-decoration: none;
+  }
+  /*Botones BotonesSitio*/
+  
+  /*Botones videos*/
+  
+  .videos{
+      display:inline-block;
+      color: black;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      height: auto;
+      background: #E2F0D9;
+      font-size: 55px;
+      border: 3px solid black;
+      font-family: Bodoni MT, Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+    }
+    
+    .videos:hover{
+      background: #E2F0D9;
+      color: black;
+      box-shadow: 
+                  inset -20px -20px 15px white,
+                  inset 20px 20px 15px white;
+    }
+    
+    .NivelesTroficos{
+      display:inline-block;
+      color: black;
+      width: auto;
+      height: 390px;
+      background: #E2F0D9;
+      font-size: 55px;
+      cursor: pointer;
+      transition: all 300ms ease;
+      border: 3px solid black;
+      font-family: Bodoni MT, Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+    }
+
+    .NivelesTroficos:hover{
+      background: #E2F0D9;
+      color: black;
+      box-shadow: 0px 0px 0px white,
+                  0px 0px 0px #C5E0B4,
+                  inset -20px -20px 15px white,
+                  inset 20px 20px 15px white;
+    }
+      
+    .efectos{
+      display:inline-block;
+      color: black;
+      text-align: top;
+      justify-content: top;
+      align-items: top;
+      width: auto;
+      height: 464px;
+      background: #E2F0D9;
+      font-size: 55px;
+      cursor: pointer;
+      transition: all 300ms ease;
+      border: 3px solid black;
+      font-family: Bodoni MT, Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+    }
+
+    .efectos:hover{
+      background: #E2F0D9;
+      color: black;
+      box-shadow: 0px 0px 0px white,
+                  0px 0px 0px #C5E0B4,
+                  inset -20px -20px 15px white,
+                  inset 20px 20px 15px white;
+    }
+
+
+    .fa-caret-square-right{
+      width: auto;
+      height: auto;
+      font-size: 110px;
+      text-align: center;
+      color: #A9D18E;
+    }
+  
+  /*Botones videos*/
+
+  /*Botones niveles*/
+
+  .niveles{
+  
+    position:relative;
+    right: 50px;
+    display:flex;
+    color: black;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background: #FFD966;
+    font-size: 45px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    border: 3px solid black;
+  }
+  
+  .niveles:hover{
+    color: black;
+    background: #FFD966;
+    box-shadow: 0px 0px 0px white,
+                0px 0px 0px #C5E0B4,
+                inset -8px -8px 9px white,
+                inset 8px 8px 8px white;
+  }
+  .imagen{
+    
+    position:relative;
+    left: 35px;
+    width: 250px;
+  }
+
+  .fa-gamepad{
+    color: #6eca57;
+    font-size: 100px;
+  }
+
+  /*Botones niveles*/
+
+  /*Boton meta*/
+
+  .meta{
+    display: inline-block;
+    background-color: #53D4FF !important;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+    box-shadow: 
+                inset 0px 0px 0px #bceeff,
+                inset 0px 0px 0px #bceeff;
+    cursor: pointer;
+    transition: all 300ms ease;
+    border: 3px solid black;
+  }
+
+  .meta:hover{
+    box-shadow: 0px 0px 0px #bceeff,
+                0px 0px 0px #8fe3ff,
+                inset -10px -10px 15px #8fe3ff,
+                inset 10px 10px 15px #bceeff;
+    color: black;
+    text-decoration: none;
+  }
+
+  /*Boton meta*/
+  .jugemos{
+      font-family: 'Cooper Black', serif; 
+      color: #ED7D31; 
+      font-size: 120px; 
+      -webkit-text-stroke: 5px black;
+  }
+  
+  .titulos{
+      font-family: 'Stay and Shine', sans-serif; 
+      font-size: 75px; 
+      -webkit-text-stroke: 1px green;
+  }
+  
+  .memoria{
+      font-family: 'Cooper Black', serif; 
+      color: #ED7D31; 
+      font-size: 75px; 
+      -webkit-text-stroke: 4px black;
+      text-align: center;
+  }
+
+  .ahorcado{
+      font-family: 'Cooper Black', serif; 
+      color: #ED7D31; 
+      font-size: 70px; 
+      -webkit-text-stroke: 4px black;
+      text-align: center;
+  }
+  
+  .busca{
+      font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+      font-size: 40px;
+      font-weight: bold;
+  }
+
+  .TituloTablero{
+      font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+      font-size: 32px;
+      text-align: center;
+      font-weight: bold;
+  }
+
+  .InstruccionAhorcado{
+      font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+      font-size: 32px;
+      text-align: center;
+      font-weight: bold;
+  }
+
+  .intentos{
+    font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+    font-size: 50px;
+    
+  }
+
+  .barra{
+    border: 3px solid #FFC000;
+  }
+  
+  .tipo{
+      font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+      font-weight: bold;
+      font-size: 60px;
+  }
+  
+  .TitulosVideos{
+      font-family: 'Cooper Black', serif; 
+      color: #ED7D31; 
+      -webkit-text-stroke: 3px black;
+      text-align: center;
+      font-size: 40px;
+  }
+  .jugador{
+      font-size: 50px;
+      font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+      width: auto;
+      margin-left: 200px;
+  }
+  .perso{
+    margin-left: 400px;
+    width: 200px;
+  }
+
+  .tamaño{
+    font-size: 100px;
+  }
+
+  .peque{
+    width: 1500px;
+  }
+
+  .animales{
+    width: 150px;
+  }
+
+  .concepto{
+    font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+    font-size: 29px;
+    text-decoration: underline;
+  }
+
+  .intentosAhorcado{
+    font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+    font-size: 29px;
+  }
+
+  .pista{
+      display:inline-block;
+      color: black;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      height: auto;
+      background: #E2F0D9;
+      font-size: 40px;
+      cursor: pointer;
+      transition: all 300ms ease;
+      border: 3px solid black;
+      font-family: Bodoni MT, Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+
+    }
+    
+    .pista:hover{
+      background: #E2F0D9;
+      color: black;
+      box-shadow: 
+                  inset -10px -10px 15px white,
+                  inset 10px 10px 15px white;
+    }
+
+    .pista:focus, .pista:active:focus, .pista.active:focus {
+      background: #E2F0D9;
+      color: black;
+  }
+
+  .letra{
+    font-size: 35px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: #E2F0D9;
+  }
+  .letra:hover{
+    color: black;
+    background-color: white;
+  }
+  .letra:active:focus, .letra.active:focus {
+    color: black;
+    background-color: #E2F0D9;
+  }
+  .felicidades{
+      font-family: 'Cooper Black', serif; 
+      color: #ED7D31; 
+      font-size: 70px; 
+      -webkit-text-stroke: 3.5px black;
+      text-align: center;
+  }
+  .botonPuntuaciones{
+    display: flex;
+    background-color: #53D4FF !important;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    color: black;
+    font-size: 30px;
+    border-radius: 50px;
+    box-shadow: 
+                inset 0px 0px 0px #bceeff,
+                inset 0px 0px 0px #bceeff;
+    cursor: pointer;
+    transition: all 300ms ease;
+    border: 3px solid black;
+  }
+  
+  .botonPuntuaciones:hover{
+    box-shadow: 0px 0px 0px #bceeff,
+                0px 0px 0px #8fe3ff,
+                inset -10px -10px 15px #8fe3ff,
+                inset 10px 10px 15px #bceeff;
+      color: black;
+      text-decoration: none;
+  
+  }
+
+  .botonesFelicidades{
+    display: flex;
+    background-color: #53D4FF !important;
+    width: auto;
+    height: auto;
+    color: black;
+    font-size: 40px;
+    border-radius: 50px;
+    box-shadow: 
+                inset 0px 0px 0px #bceeff,
+                inset 0px 0px 0px #bceeff;
+    border: 3px solid black;
+  }
+  
+  .botonesFelicidades:hover{
+    box-shadow: 
+                inset -10px -10px 15px #8fe3ff,
+                inset 10px 10px 15px #bceeff;
+      color: black;
+      text-decoration: none;
+  
+  }
+  
+  .botonesContendio{
+    display: flex;
+    background-color: #53D4FF !important;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 460px;
+    height: auto;
+    color: black;
+    font-size: 40px;
+    border-radius: 50px;
+    box-shadow: 
+                inset 0px 0px 0px #bceeff,
+                inset 0px 0px 0px #bceeff;
+    cursor: pointer;
+    transition: all 300ms ease;
+    border: 3px solid black;
+  }
+  
+  .botonesContendio:hover{
+    box-shadow: 0px 0px 0px #bceeff,
+                0px 0px 0px #8fe3ff,
+                inset -10px -10px 15px #8fe3ff,
+                inset 10px 10px 15px #bceeff;
+      color: black;
+      text-decoration: none;
+  
+  }
+
+  .tabla{
+    font-size: 22px;
+  }
+  
+  @media screen and (max-width:900px){
+      .memoria{
+        font-size: 35px;
+        text-align: center;
+        -webkit-text-stroke: 2.5px black
+      }
+      .busca{
+          font-size: 20px;
+          text-align: center;
+      }
+      .titulos{
+          font-size: 40px;
+          text-align: center;
+          -webkit-text-stroke: 1px green
+      }
+      .jugemos{
+          font-size: 41px;
+          text-align: center;
+          -webkit-text-stroke: 2px black
+      }
+      .tipo{
+          font-size: 30px;
+          justify-content: center;
+          align-items: center;
+      }
+      .BotonesSitio{
+          height: auto;
+          width: auto;
+          justify-content: right;
+          align-items: center;
+          margin:auto;
+          font-size: 30px;
+      }
+      
+      .TitulosVideos{
+          font-size: 30px;
+          -webkit-text-stroke: 1.5px black;
+      }
+  
+      .videos{
+          font-size: 25px;
+      }
+      .fa-caret-square-right{
+          font-size: 45px;
+      }
+      .niveles{
+          font-size: 35px;
+      }
+      .imagen{
+          width: 140px;
+          position:relative;
+          left: 5px;
+      }
+      .fa-gamepad{
+          font-size: 50px
+      }
+      .meta{
+        font-size: 25px;
+      }
+      .jugador{
+        font-size: 17px;
+        margin-top: 25px;
+        justify-content: center;
+        align-items: center;
+        text-align: right;
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+      }
+      .perso{
+          width: 200px;
+          text-align: center;
+          margin-left: 40px;
+      }
+      .intentos{
+        font-size: 20px;
+      }
+      .peque{
+        width: 500px;
+        margin-left: 30px;
+      }
+      .animales{
+        width: auto;
+      }
+      .botones{
+        font-size: 15px;
+        text-align: center;
+        margin-right: 20;
+        width: auto;
+        height: auto;
+      }
+      .arboles{
+        display: inline-block;
+        height:auto;
+        width: auto;
+      }
+      .concepto{
+        font-size: 20px;
+      }
+      .pista{
+        font-size: 20px;
+      }
+
+      .letra{
+        display: inline-block;
+        align-items: center;
+        font-size: 15px;
+        margin: auto;
+        width: auto;
+        height: auto;
+      }
+      .felicidades{
+        font-size: 40px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+      .confetiSuperior{
+        height: 500px;
+        position: relative;
+        top: 200PX;
+      }
+      .confetiInferior{
+        height: 300PX;
+        position: relative;
+        bottom: 20px;
+      }
+      .botonPuntuaciones{
+        font-size: 15px;
+      }
+      .tabla{
+        font-size: 15px;
+      }
+      .TituloTablero{
+        font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: center;
+      }
+      .InstruccionAhorcado{
+        font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .ahorcado{
+        font-family: 'Cooper Black', serif; 
+        color: #ED7D31; 
+        font-size: 50px; 
+        -webkit-text-stroke: 3px black;
+        text-align: center;
+      }
+      .intentosAhorcado{
+        font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif!important;
+        font-size: 20px;
+      }
+      .NivelesTroficos{
+        height: auto;
+        width: 320px;
+        font-size: 25px;
+      }
+      .efectos{
+        width: auto;
+        height: auto;
+        font-size: 25px;
+      }
+      .botonesFelicidades{
+
+        font-size: 20px;
+      }
+      .botonesContendio{
+        height: auto;
+        width: auto;
+        margin-right: 50px;
+        font-size: 20px;
+      }
+      .dibujo{
+        width: 310px;
+      }
+  }
